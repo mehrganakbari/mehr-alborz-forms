@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/images/logo-mehralborz-fa.png">
+  <link rel="stylesheet" href="src/styles/tailwind.css">
+  <link rel="stylesheet" href="src/styles/font.css">
+  <title>مهرالبرز - ورود</title>
+</head>
+
+<body class="font bg-[#eee]">
+
+  <div class="p-0 shadow-md bg-white w-[60%] rounded-xl mx-[20%] my-9 flex h-[90vh]">
+    <!-- ----------right box---------- -->
+    <div class="w-[50%]">
+      <!-- -----logo & wellcome ----- -->
+      <div class="w-full flex justify-center pt-20 pb-5">
+        <div class="bg-slate-50 p-4 border rounded-full">
+          <img src="assets/images/logo-mehralborz-fa.png" class="w-16">
+        </div>
+      </div>
+      <p class="text-lg text-center text-stone-900 mt-10">خوش آمدید</p>
+      <p class="text-sm text-center py-3 text-stone-500">جهت دسترسي به سامانه و موارد آموزشي ابتدا وارد سامانه شويد.</p>
+      <div class="mx-4">
+        <!-- Username -->
+        <div
+          class="sm:flex items-center my-4 border border-stone-300 bg-blue-50 px-4 text-xs rounded-md w-full justify-between">
+          <input type="text" name="Username" id="Username" placeholder="نام كاربري / شماره دانشجويي"
+            class="text-[#9da4b0] w-full bg-blue-50 py-5 focus:outline-none">
+          <img src="assets/icons/user.png" class="w-7 h-7" alt="">
+        </div>
+        <!--  Password -->
+        <div
+          class="sm:flex items-center my-4 border border-stone-300 bg-blue-50 px-4 text-xs rounded-md w-full justify-between">
+          <input type="text" name="Username" id="Username" placeholder="رمز عبور"
+            class="text-[#9da4b0] w-full bg-blue-50 py-5 focus:outline-none">
+          <img src="assets/icons/look.png" class="w-7 h-7" alt="">
+        </div>
+        <!-- texts link -->
+        <div class="flex justify-between mx-4">
+          <div class="text-sm">
+            <input type="checkbox" name="rmainde" id="rmainde">
+            <span class="text-sm text-stone-500">مرا به خاطر بسپار</span>
+          </div>
+          <div class="text-sm text-blue-600"><a href="forget.html">رمز عبور خود را فراموش كرده ايد؟</a></div>
+        </div>
+        <div class="flex justify-center">
+          <button type="submit" class="w-full text-white text-base bg-blue-600 border-blue-800 py-3 rounded-3xl mt-28 font-bold">ورود به سامانه</button>
+        </div>
+        <p class="text-center text-sm mt-28">تا كنون عضو سامانه نشده ايد؟<span class="mr-4 text-blue-600"><a href="regester.html">ثبت نام کنید</a></span></p>
+      </div>
+    </div>
+    <!-- ----------slider---------- -->
+    <div class="w-[50%]">
+      <div class="h-full w-full"><img src="assets/images/helplogin.png" class="h-full w-full"></div>
+    </div>
+  </div>
+
+  <script type="module" src="./src/script/main.js"></script>
+</body>
+
+</html>

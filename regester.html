@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/images/logo-mehralborz-fa.png">
+  <link rel="stylesheet" href="src/styles/tailwind.css">
+  <link rel="stylesheet" href="src/styles/font.css">
+  <title>مهرالبرز - ثبت نام</title>
+</head>
+
+<body class="font bg-[#eee]">
+
+  <div class="p-0 shadow-md bg-white w-[60%] rounded-xl mx-[20%] my-9 flex h-[90vh]">
+    <!-- ----------right box---------- -->
+    <div class="w-[50%]">
+      <!-- -----logo & wellcome ----- -->
+      <div class="w-full flex justify-center pt-20 pb-10">
+        <div class="bg-slate-50 p-4 border rounded-full">
+          <img src="assets/images/logo-mehralborz-fa.png" class="w-16">
+        </div>
+      </div>
+      <div class="h-3/4 overflow-y-scroll mx-4">
+        <form action="#" id="form" autocomplete="off">
+        <!-- Username -->
+        <input type="text" name="Username" id="Username" placeholder="نام كاربري / شماره دانشجويي"
+          class="text-[#9da4b0] w-full bg-blue-50 py-5 border border-stone-300  px-4 text-xs rounded-md focus:outline-none">
+        <!-- spacing -->
+        <div class="w-full my-3 px-2"> </div><!-- spacing -->
+        <!--  Password -->
+        <input type="text" name="Username" id="Username" placeholder="رمز عبور"
+          class="text-[#9da4b0] w-full bg-blue-50 py-5 border border-stone-300 px-4 text-xs rounded-md focus:outline-none my-3">
+        <!-- spacing -->
+        <div class="w-full my-3 px-2"> </div><!-- spacing -->
+        <!-- Username -->
+        <input placeholder="تایید رمز عبور" type="text" autocomplete="off" name="ConfirmPassword" id="ConfirmPassword"
+          class="text-[#9da4b0] w-full bg-blue-50 py-5 border border-stone-300  px-4 text-xs rounded-md focus:outline-none">
+        <!-- spacing -->
+        <div class="w-full my-3 px-2"> </div><!-- spacing -->
+        <!--  Password -->
+        <input placeholder="پست الکترونیک" type="text" autocomplete="off" name="Email" id="Email"
+          class="text-[#9da4b0] w-full bg-blue-50 py-5 border border-stone-300 px-4 text-xs rounded-md focus:outline-none my-3">
+        <!-- spacing -->
+        <div class="w-full my-3 px-2"> </div><!-- spacing -->
+        <!-- Username -->
+        <input placeholder="پست الکترونیک مجدد" type="text" autocomplete="off" name="ConfirmEmail" id="ConfirmEmail"
+          class="text-[#9da4b0] w-full bg-blue-50 py-5 border border-stone-300  px-4 text-xs rounded-md focus:outline-none">
+        <!-- spacing -->
+        <div class="w-full my-3 px-2"> </div><!-- spacing -->
+        <!--  Password -->
+        <input placeholder="نام" type="text" autocomplete="off" name="FirstName" id="FirstName"
+          class="text-[#9da4b0] w-full bg-blue-50 py-5 border border-stone-300 px-4 text-xs rounded-md focus:outline-none my-3">
+        <!-- spacing -->
+        <div class="w-full my-3 px-2"> </div><!-- spacing -->
+        <!-- Username -->
+        <input type="text" placeholder="نام خانوادگی" type="text" autocomplete="off" name="LastName" id="LastName"
+          class="text-[#9da4b0] w-full bg-blue-50 py-5 border border-stone-300  px-4 text-xs rounded-md focus:outline-none">
+        <!-- spacing -->
+        <div class="w-full my-3 px-2"> </div><!-- spacing -->
+        <!-- Nationality -->
+        <select name="Nationality" id="Nationality"
+          class="text-[#9da4b0] w-full bg-blue-50 py-5 border border-stone-300 px-4 text-xs rounded-md focus:outline-none my-3">
+          <option class="text-gray-400">کشور</option>
+          <option class="text-gray-400" value="ایران">ایران</option>
+          <option class="text-gray-400" value="امارات">امارات</option>
+          <option class="text-gray-400" value="ترکیه">ترکیه</option>
+          <option class="text-gray-400" value="آذربایجان">آذربایجان</option>
+          <option class="text-gray-400" value="ارمنستان">ارمنستان</option>
+          <option class="text-gray-400" value="روسیه">روسیه</option>
+          <option class="text-gray-400" value="آلمان">آلمان</option>
+          <option class="text-gray-400" value="فرانسه">فرانسه</option>
+          <option class="text-gray-400" value="کانادا">کانادا</option>
+          <option class="text-gray-400" value="هلند">هلند</option>
+          <option class="text-gray-400" value="سوئیس">سوئیس</option>
+        </select>
+        <!-- spacing -->
+        <div class="w-full my-3 px-2"> </div><!-- spacing -->
+        <!-- City -->
+        <input type="text" placeholder="شهر" type="text" autocomplete="off" name="City" id="City"
+          class="text-[#9da4b0] w-full bg-blue-50 py-5 border border-stone-300 px-4 text-xs rounded-md focus:outline-none my-3">
+        <!-- spacing -->
+        <div class="w-full my-3 px-2"> </div><!-- spacing -->
+        <!-- Gender -->
+        <select name="Gender" id="Gender"
+          class="text-[#9da4b0] w-full bg-blue-50 py-5 border border-stone-300 px-4 text-xs rounded-md focus:outline-none my-3">
+          <option class="text-gray-400">جنیست</option>
+          <option class="text-gray-400">آقا</option>
+          <option class="text-gray-400">خانم</option>
+        </select>
+        <!-- spacing -->
+        <div class="w-full my-3 px-2"> </div><!-- spacing -->
+        <!--  PhoneNumber -->
+        <input type="text" placeholder="تلفن همراه" type="text" autocomplete="off" name="PhoneNumber" id="PhoneNumber"
+          class="text-[#9da4b0] w-full bg-blue-50 py-5 border border-stone-300 px-4 text-xs rounded-md focus:outline-none my-3">
+        <!-- spacing -->
+        <div class="w-full my-3 px-2"> </div><!-- spacing -->
+        <!-- Department -->
+        <input type="text" placeholder="عنوان سازمان" type="text" autocomplete="off" name="Department" id="Department"
+          class="text-[#9da4b0] w-full bg-blue-50 py-5 border border-stone-300 px-4 text-xs rounded-md focus:outline-none my-3">
+        <!-- spacing -->
+        <div class="w-full my-3 px-2"> </div><!-- spacing -->
+        <!-- Uploading the image -->
+        <div
+          class="flex justify-between text-[#9da4b0] w-full bg-blue-50 py-5 border border-stone-300 px-4 text-xs rounded-md focus:outline-none my-3">
+          <p class="text-[#9da4b0]">تصوير خود را وارد کنید</p>
+          <input type="file" name="File" id="File" value="انتخاب تصوير" dir="ltr"
+            class="text-[#9da4b0] py-2 cursor-pointer px-4 mx-2 rounded-md text-sm bg-orange-500 hover:shadow-none">
+        </div>
+        <!-- buttons -->
+        <div class="xl:flex xl:justify-center text-center mx-2 text-sm mb-3">
+          <button class="text-white bg-[#245bc0] my-2 mx-2 py-2 px-5 rounded-md" id="submit-btn">ایجاد
+            حساب کاربری</button>
+          <button class="text-white bg-orange-500 my-2 mx-2 py-2 px-11 rounded-md">انصراف</button>
+        </div>
+      </form>
+      </div>
+    </div>
+    <!-- ----------slider---------- -->
+    <div class="w-[50%]">
+      <div class="h-full w-full"><img src="assets/images/helplogin.png" class="h-full w-full"></div>
+    </div>
+  </div>
+
+  <section id="newAccountBox" class="hidden bg-[#245bc0] left-0 top-0 fixed w-full h-[100vh] pt-[10vh] z-50">
+    <div class="bg-blue-500 rounded-2xl w-[70%] mx-auto h-[80vh] p-7 overflow-y-scroll">
+      <!-- Progress bar -->
+      <div id="ProgressBar" class="w-full flex justify-center pt-[10vh]">
+        <div class="relative w-[150px] h-[150px] rounded-[50%] outline outline-1 outline-white outline-offset-[-1px]">
+          <!-- Number -->
+          <div id="NumberBox" class="w-full flex justify-center">
+            <span id="Number" class="absolute top-[42%] animate-fill-bar text-xl text-white" data-value="100"></span>
+          </div>
+          <!-- Circule -->
+          <svg height="150" width="150" class="-rotate-90 animate-fill-bar storke-2 stroke-white">
+            <circle cx="75" cy="75" r="65" stroke="#ffffff" stroke-width="5" fill="none"></circle>
+          </svg>
+        </div>
+      </div>
+      <div class="text-center pt-[5vh] text-white">
+        <p>درحال ساخت حساب کاربری شما هستیم</p>
+      </div>
+    </div>
+  </section>
+
+
+  <script type="module" src="./src/script/main.js"></script>
+</body>
+
+</html>
